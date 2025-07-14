@@ -32,4 +32,10 @@ dropdownToggle.addEventListener('click', function (e) {
     dropdownToggle.classList.toggle('open');
 });
 
-AOS.init();
+AOS.init({
+  offset: -120, // смещение (в px) от исходной точки запуска
+  delay: 0, // задержка (в ms)
+  duration: 400, // длительность анимации (в ms)
+  easing: 'ease', // функция плавности
+  once: false // анимировать только один раз
+});
