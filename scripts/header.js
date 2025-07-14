@@ -32,7 +32,4 @@ dropdownToggle.addEventListener('click', function (e) {
     dropdownToggle.classList.toggle('open');
 });
 
-AOS.init({
-    offset: -150,
-    duration: 600,
-});
+AOS.init();
